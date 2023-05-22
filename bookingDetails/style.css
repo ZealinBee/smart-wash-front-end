@@ -1,0 +1,18 @@
+main {
+  width: 100vw;
+}
+main img {
+  width: 100vw;
+}
+
+section button {
+  width: 250px;
+  border: none;
+  border-radius: 2rem;
+  background-color: #fff50d;
+  color: black;
+  font-size: 1.25rem;
+  margin-left: auto;
+  margin-right: 5rem;
+  padding: 0.5rem 1rem;
+}

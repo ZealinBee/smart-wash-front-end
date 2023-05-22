@@ -1,0 +1,48 @@
+main {
+  width: 100%;
+}
+
+main img {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.text {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top:2rem;
+}
+
+form label {
+  margin-top: 1.5rem;
+}
+
+form input {
+  margin-top: 1.5rem;
+}
+
+form button {
+  width: 70px;
+  background-color: #fff50d;
+  padding: 0.5rem 0;
+  border-radius: 1.5rem;
+  margin-left: auto;
+  border: none;
+  margin-top: 1rem;
+}
+
+form p {
+  margin-left: auto;
+  margin-top: 1rem;
+}
+
+form a {
+  text-decoration: underline;
+}
