@@ -26,3 +26,62 @@ section button {
     margin-right:5rem;
     padding:0.5rem 1rem;
 }
+
+.services {
+  display:flex;
+  flex-direction: column;
+}
+
+.service {
+  display:flex;
+  width: inherit;
+  flex-direction: column;
+  padding:0;
+  cursor: pointer;
+  margin-top:1rem;
+}
+
+.service-titles {
+  display:flex;
+  padding:0;
+  justify-content: start;
+}
+
+.arrow {
+  margin-left:0.5rem;
+  margin-right:auto;
+}
+
+.active {
+  transform: rotate(90deg);
+}
+
+.offered-service {
+  display:flex;
+  flex-direction: column;
+  display:none;
+  margin-top:1rem;
+}
+
+.show {
+  display:flex;
+}
+
+h3 {
+  font-size:1.5rem;
+}
+
+li {
+  display:flex;
+  margin-top:1rem;
+  justify-content: space-between;
+  font-size:1.25rem;
+}
+
+input[type="checkbox"] {
+  margin-right:2rem;
+}
+
+button {
+  margin-top:2rem;
+}

@@ -1,8 +1,78 @@
-.container {
-  display:flex;
-  width:100vw;
+body {
+  background-color: #b4fbff;
 }
 
 .container {
-  width:100vw;
+  display: flex;
+  width: 100vw;
+  margin-top: 1rem;
+  justify-content: center;
+  border-bottom: 1px black solid;
+  padding:2rem;
+}
+
+.container img {
+  width: 70%;
+}
+
+footer {
+  background-color: white;
+}
+
+.question {
+  margin-top: 2rem;
+  display: flex;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  width: 60%;
+}
+
+form h1 {
+  margin-bottom:1rem;
+}
+
+input {
+  margin-bottom: 1rem;
+  padding: 0.25rem 1rem;
+  font-size: 1.25rem;
+  width: 90%;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: black;
+}
+
+textarea {
+  margin-bottom: 1rem;
+  padding: 0.2rem 1rem;
+  font-size: 1.25rem;
+}
+
+button {
+  width: 100px;
+  border: none;
+  color: white;
+  background-color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.sns {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right:7rem;
+}
+
+.sns img {
+  margin-top: 1rem;
+  width: 40px;
 }

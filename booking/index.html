@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../global.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="../details.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
@@ -18,8 +19,7 @@
       <a href="../contactus/contactus.html" class="nav_right">CONTACT US</a>
       <a href="../login/login.html" class="nav_right">Login/Logout</a>
     </header>
-    <main>
-    </main>
+    <main></main>
     <section>
       <h2>Personal Information</h2>
       <div>
@@ -39,20 +39,128 @@
         <input type="text" placeholder="Ex: Guard will be the one to receive" />
       </div>
       <h2>Chosen Service</h2>
-      <div>
-        <p>WASH AND DRY →</p>
-      </div>
-      <div>
-        <p>DRY CLEANING →</p>
-      </div>
-      <div>
-        <p>LEATHER CLEANING →</p>
-      </div>
-      <div>
-        <p>IRONING SERVICE →</p>
-      </div>
-      <button><a href="#">Booking Details</a></button>
 
+      <div class="services">
+        <div class="service wash">
+          <div class="service-title">
+            <div class="service-name">WASH AND DRY</div>
+            <div class="arrow">-></div>
+          </div>
+          <div class="offered-service">
+            <h3>Basic Services</h3>
+            <li>Small bags<input type="checkbox" /></li>
+            <li>Medium bags<input type="checkbox" /></li>
+            <li>Large bags<input type="checkbox" /></li>
+            <h3>Special Items</h3>
+            <li>Up to 3 pieces <input type="checkbox" /></li>
+            <li>Up to 5 pieces <input type="checkbox" /></li>
+            <li>Up to 10 pieces <input type="checkbox" /></li>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-title">
+            <div class="service-name">DRY CLEANING</div>
+            <div class="arrow">-></div>
+          </div>
+          <div class="offered-service">
+            <h3>Blazer</h3>
+            <li>Extra Large<input type="checkbox" /></li>
+            <li>Large<input type="checkbox" /></li>
+            <li>Medium<input type="checkbox" /></li>
+            <li>Small<input type="checkbox" /></li>
+            <h3>Coat</h3>
+            <li>Extra Large<input type="checkbox" /></li>
+            <li>Large<input type="checkbox" /></li>
+            <li>Medium<input type="checkbox" /></li>
+            <li>Small<input type="checkbox" /></li>
+            <h3>Others</h3>
+            <li>Dress(Long)<input type="checkbox" /></li>
+            <li>Dress(Short)<input type="checkbox" /></li>
+            <li>Vest<input type="checkbox" /></li>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-title">
+            <div class="service-name">LEATHER CLEANING</div>
+            <div class="arrow">-></div>
+          </div>
+          <div class="offered-service">
+            <h3>LEATHER GOODS</h3>
+            <li>
+              Leather Jacket
+              <input type="checkbox" />
+            </li>
+            <li>
+              Leather Bag (Small)
+              <input type="checkbox" />
+            </li>
+            <li>
+              Leather Bag (Medium)
+              <input type="checkbox" />
+            </li>
+            <li>
+              Leather Bag (Large)
+              <input type="checkbox" />
+            </li>
+            <li>
+              Leather Shoes
+              <input type="checkbox" />
+            </li>
+          </div>
+        <div class="service">
+          <div class="service-title">
+            <div class="service-name">IRONING</div>
+            <div class="arrow">-></div>
+          </div>
+          <div class="offered-service">
+            <h3>IRONING</h3>
+            <li>
+              Handkerchief
+              <input type="checkbox" />
+            </li>
+            <li>
+              Jackets
+              <input type="checkbox" />
+            </li>
+            <li>
+              Dress (Short)
+
+
+              <input type="checkbox" />
+            </li>
+            <li>
+              Dress (Long)
+
+
+              <input type="checkbox" />
+            </li>
+            <li>
+              Pants
+              <input type="checkbox" />
+            </li>
+            <li>
+              Shorts
+              <input type="checkbox" />
+            </li>
+            <li>
+              Tops (short sleeves)
+
+
+              <input type="checkbox" />
+            </li>
+            <li>
+              Tops (long sleeves)
+
+
+              <input type="checkbox" />
+            </li>
+          </div>
+        </div>
+      </div>
+
+      <button>
+        <a href="../bookingDetails/index.html">Booking Details</a>
+      </button>
     </section>
 
     <footer>
